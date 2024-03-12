@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://localhost:3000"),
+  metadataBase: new URL("https://moh1tsingh.vercel.app/"),
 
   title: "Mohitsingh Thakur",
   authors: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Mohitsingh",
     description:
       "An Engineering student and a Fullstack developer passionate about building stuff that users love.",
-    url: "https://localhost:3000",
+    url: "https://moh1tsingh.vercel.app/",
     siteName: "Mohitsingh",
     images: "/og.png",
     type: "website",
@@ -36,7 +36,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={space_Grotesk.className}>
-        
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
