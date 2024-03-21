@@ -24,24 +24,24 @@ const HeroSection = () => {
           className=" inline-block group"
           href="mailto:thakurmohitsingh2003@gmail.com"
         >
-          <Title text="Contact Me 📬" />
+          <Title  text="Contact Me 📬" />
         </Link>
       </div>
       <div className=" relative">
-        <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
+        <div className=" abstract-size-parent space-y-3 -rotate-[30deg] relative">
           <div className="flex gap-3 translate-x-8">
-            <div className=" w-32 h-32 rounded-2xl bg-green-500"></div>
-            <div className=" w-32 h-32 rounded-full bg-indigo-500"></div>
+            <div className=" abstract-size  rounded-2xl bg-green-500"></div>
+            <div className=" abstract-size rounded-full bg-indigo-500"></div>
           </div>
           <div className="flex gap-3 -translate-x-8">
-            <div className=" w-32 h-32 rounded-2xl bg-indigo-500"></div>
-            <div className=" w-32 h-32 rounded-full bg-green-500"></div>
+            <div className="abstract-size  rounded-2xl bg-indigo-500"></div>
+            <div className="abstract-size rounded-full bg-green-500"></div>
           </div>
-          <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
+          <div className="glow  absolute top-[40%] right-1/2 -z-10"></div>
         </div>
 
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
-          <MovingBorderBtn borderRadius="0.5rem" className=" p-3 font-semibold">
+          <MovingBorderBtn borderRadius="0.5rem" className=" available-button">
             <p>📢 Available for Work</p>
           </MovingBorderBtn>
         </div>

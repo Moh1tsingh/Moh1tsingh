@@ -23,7 +23,7 @@ const Skills = () => {
       icon: SiNodedotjs,
     },
     {
-      title: "Javascript",
+      title: "Java script",
       icon: SiJavascript,
     },
     {
@@ -44,7 +44,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className=" max-w-5xl mx-auto px-8">
+    <div className=" max-w-5xl mx-auto skills-container">
       <Title
         text="Skills 🔪"
         className="flex flex-col items-center justify-center -rotate-[6deg]"

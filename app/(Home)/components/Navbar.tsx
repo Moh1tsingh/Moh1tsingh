@@ -5,7 +5,7 @@ import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiX } from "react-icons/si";
 
-const Navbar = ({className}:{className?:string}) => {
+const Navbar = ({ className }: { className?: string }) => {
   const socials = [
     {
       Link: "https://www.linkedin.com/in/mohitsingh-thakur-b6794325a",
@@ -25,8 +25,8 @@ const Navbar = ({className}:{className?:string}) => {
   ];
 
   return (
-    <nav className={cn(" py-10 flex justify-between items-center animate-move-down",className)}>
-      <h1 className=" text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
+    <nav className={cn("  navbar animate-move-down", className)}>
+      <h1 className=" title-name  font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
         Mohitsingh 🧑🏻‍💻
       </h1>
       <div className="flex items-center gap-5 ">

@@ -50,11 +50,11 @@ function Projects() {
         text="Projects 📋"
         className="flex flex-col items-center justify-center rotate-[4deg]"
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 p-20 pt-10 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 project-container gap-5">
         {projects.map((project, index) => {
           return (
             <Link href={project.link} key={index}>
-              <div className={cn("p-3 rounded-md", project.background)}>
+              <div className={cn(" project-border rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className=" w-full space-y-5 cursor-pointer"
