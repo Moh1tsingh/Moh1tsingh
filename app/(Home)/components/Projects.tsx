@@ -5,6 +5,7 @@ import {
   SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostgresql,
   SiReact,
   SiTailwindcss,
 } from "react-icons/si";
@@ -16,19 +17,20 @@ import Link from "next/link";
 function Projects() {
   const projects = [
     {
+      title: "Reddit Clone",
+      tech: [SiNextdotjs, SiTailwindcss, SiPostgresql],
+      link: "https://github.com/Moh1tsingh/reddit-clone",
+      cover: "/Reddit-clone.png",
+      background: "bg-red-500",
+    },
+    {
       title: "Tic-Tac-Toe Multiplayer Game",
       tech: [SiReact, SiTailwindcss, SiNodedotjs],
       link: "https://github.com/Moh1tsingh/tic-tac-toe-multiplayer",
       cover: "/Tic-tac-toe.png",
       background: "bg-indigo-500",
     },
-    {
-      title: "Animated Site",
-      tech: [SiHtml5, SiCss3, SiJavascript],
-      link: "https://moh1tsingh.github.io/Animated-site/",
-      cover: "/Animated-site.png",
-      background: "bg-green-500",
-    },
+
     {
       title: "Neural Network Project",
       tech: [SiHtml5, SiCss3, SiJavascript],
@@ -54,7 +56,9 @@ function Projects() {
         {projects.map((project, index) => {
           return (
             <Link href={project.link} key={index}>
-              <div className={cn(" project-border rounded-md", project.background)}>
+              <div
+                className={cn(" project-border rounded-md", project.background)}
+              >
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className=" w-full space-y-5 cursor-pointer"

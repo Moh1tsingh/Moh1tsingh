@@ -10,6 +10,9 @@ import {
   SiTailwindcss,
   SiCplusplus,
   SiPython,
+  SiNextdotjs,
+  SiPostgresql,
+  SiMongodb
 } from "react-icons/si";
 
 const Skills = () => {
@@ -19,16 +22,28 @@ const Skills = () => {
       icon: SiReact,
     },
     {
+      title: "Next js",
+      icon: SiNextdotjs,
+    },
+    {
       title: "Node js",
       icon: SiNodedotjs,
     },
     {
-      title: "Java script",
+      title: "Javascript",
       icon: SiJavascript,
     },
     {
       title: "Tailwind CSS",
       icon: SiTailwindcss,
+    },
+    {
+      title: "PostgreSQL",
+      icon: SiPostgresql,
+    },
+    {
+      title: "MongoDB",
+      icon: SiMongodb,
     },
     {
       title: "Github",
