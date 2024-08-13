@@ -8,6 +8,7 @@ import {
   SiPostgresql,
   SiReact,
   SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
 import Title from "./Title";
 import { cn } from "@/lib/utils";
@@ -18,7 +19,7 @@ function Projects() {
   const projects = [
     {
       title: "Reddit Clone",
-      tech: [SiNextdotjs, SiTailwindcss, SiPostgresql],
+      tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPostgresql],
       link: "https://github.com/Moh1tsingh/reddit-clone",
       cover: "/Reddit-clone.png",
       background: "bg-red-500",
@@ -32,10 +33,10 @@ function Projects() {
     },
 
     {
-      title: "Neural Network Project",
-      tech: [SiHtml5, SiCss3, SiJavascript],
-      link: "https://moh1tsingh.github.io/NN-CAR/",
-      cover: "/NN-Car.png",
+      title: "Event Manager",
+      tech: [SiTypescript,SiNextdotjs, SiTailwindcss, SiPostgresql],
+      link: "https://event-manager-liard-one.vercel.app/",
+      cover: "/Evemg.png",
       background: "bg-pink-500",
     },
     {

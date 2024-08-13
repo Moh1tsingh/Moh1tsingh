@@ -12,39 +12,39 @@ import {
   SiPython,
   SiNextdotjs,
   SiPostgresql,
-  SiMongodb
+  SiMongodb,
+  SiTypescript,
+  SiPrisma
 } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
     {
-      title: "React js",
-      icon: SiReact,
-    },
-    {
       title: "Next js",
       icon: SiNextdotjs,
     },
     {
-      title: "Node js",
-      icon: SiNodedotjs,
+      title: "React js",
+      icon: SiReact,
+    },
+    {
+      title: "Typescript",
+      icon: SiTypescript,
     },
     {
       title: "Javascript",
       icon: SiJavascript,
     },
     {
+      title: "Node js",
+      icon: SiNodedotjs,
+    },
+
+    {
       title: "Tailwind CSS",
       icon: SiTailwindcss,
     },
-    {
-      title: "PostgreSQL",
-      icon: SiPostgresql,
-    },
-    {
-      title: "MongoDB",
-      icon: SiMongodb,
-    },
+
     {
       title: "Github",
       icon: SiGit,
@@ -54,8 +54,8 @@ const Skills = () => {
       icon: SiCplusplus,
     },
     {
-      title: "Python",
-      icon: SiPython,
+      title: "Prisma",
+      icon: SiPrisma,
     },
   ];
   return (
