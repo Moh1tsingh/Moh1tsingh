@@ -41,7 +41,7 @@ const Skills = () => {
     },
 
     {
-      title: "Tailwind CSS",
+      title: "Tailwind",
       icon: SiTailwindcss,
     },
 

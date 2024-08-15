@@ -8,7 +8,10 @@ const HeroSection = () => {
     <div className=" min-h-[60vh] flex flex-col-reverse lg:gap-0 gap-14 lg:flex-row items-center justify-between animate-move-up">
       <div className=" space-y-6 text-center lg:text-left">
         <h1 className=" text-4xl lg:text-7xl font-bold">
-          Nice to meet you! 👋
+          Nice to meet you!{" "}
+          <span className=" hand-emoji">
+            👋
+          </span>
           <br />
           <span className=" underline underline-offset-8 decoration-green-500">
             {"I am Mohitsing"}
@@ -24,7 +27,7 @@ const HeroSection = () => {
           className=" inline-block group"
           href="mailto:thakurmohitsingh2003@gmail.com"
         >
-          <Title  text="Contact Me 📬" />
+          <Title text="Contact Me 📬" />
         </Link>
       </div>
       <div className=" relative">
@@ -40,11 +43,11 @@ const HeroSection = () => {
           <div className="glow  absolute top-[40%] right-1/2 -z-10"></div>
         </div>
 
-        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
+        {/* <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
           <MovingBorderBtn borderRadius="0.5rem" className=" available-button">
             <p>📢 Available for Work</p>
           </MovingBorderBtn>
-        </div>
+        </div> */}
       </div>
     </div>
   );
