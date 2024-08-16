@@ -18,9 +18,9 @@ const page = () => {
       </div>
       <div className=" max-w-7xl mx-auto p-5 mt-20 space-y-5">
         <div className=" max-sm:hidden border-t"></div>
-        <div className=" max-sm:hidden w-full flex justify-center items-center gap-x-3 font-normal">
+        <div className=" max-sm:hidden min-w-[720px] flex justify-center items-center gap-x-3 font-normal">
           <Terminal />
-          <div className="w-[40%] h-[500px]  flex flex-col items-start justify-start p-4">
+          <div className=" max-lg:hidden w-1/3 h-[500px]  flex flex-col items-start justify-start p-4">
             <h1 className=" text-5xl font-semibold">Check this out!</h1>
             <p className=" text-2xl text-neutral-400">A terminal like interactive interface with some predefined commands like - <br /> about, projects, skills, cls, help, etc.
             </p>
