@@ -98,7 +98,7 @@ export default function Terminal() {
         ))}
 
         <div className=" w-full px-2 font-mono flex">
-          <h1 className="text-green-500 font-semibold">
+          <h1 className="text-green-500 font-semibold w-[30%]">
             ~/Portfolio/terminal $
           </h1>
           <input
@@ -109,7 +109,7 @@ export default function Terminal() {
             autoComplete="off"
             placeholder={output.length === 0 ? "type 'help' to get started":""}
             spellCheck="false"
-            className="w-[70%] pl-2 border-none outline-none bg-transparent text-white font-semibold"
+            className="w-[70%] border-none outline-none bg-transparent text-white font-semibold"
           />
         </div>
       </div>
