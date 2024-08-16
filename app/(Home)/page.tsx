@@ -16,7 +16,7 @@ const page = () => {
         </div>
         <div className=" h-30  bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:-bottom-4 w-full"></div>
       </div>
-      <div className=" max-w-7xl mx-auto p-5 mt-20 space-y-5">
+      <div className=" max-w-[90rem] mx-auto p-5 mt-20 space-y-5">
         <div className=" max-sm:hidden border-t"></div>
         <div className=" max-sm:hidden min-w-[720px] flex justify-center items-center gap-x-3 font-normal">
           <Terminal />

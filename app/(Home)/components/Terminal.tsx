@@ -73,7 +73,7 @@ export default function Terminal() {
     }
   }
   return (
-    <div className=" max-sm:hidden w-[720px] h-[500px] bg-neutral-900 rounded-lg border border-zinc-700 relative font-mono      ">
+    <div className="  w-[720px] h-[500px] bg-neutral-900 rounded-lg border border-zinc-700 relative font-mono      ">
       <div className=" h-9 bg-neutral-800 w-full rounded-t-lg flex justify-between">
         <div className=" flex gap-2 items-center pl-3">
           <div className=" rounded-full bg-red-600 size-5"></div>
