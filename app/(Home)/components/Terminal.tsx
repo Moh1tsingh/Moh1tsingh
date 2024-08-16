@@ -17,7 +17,7 @@ export default function Terminal() {
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Enter") {
       setHistoryCount(0);
-      switch (input) {
+      switch (input.toLowerCase()) {
         case "skills":
             let skills =
             "1] Languages :\nHtml\nJavascript\nTypescript\nC++\nPython \n2] Libraries, Frameworks and Tools :\nNextjs\nReact\nNodejs\nTailwind\nPrisma(ORM) - Postgress\nSupabase\nGit-Github";
