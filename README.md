@@ -43,10 +43,11 @@
 ###
 
 <br clear="both">
-
+<!--
 <div align="center">
   <img height="120" src="https://image.myanimelist.net/ui/0qT9QmcJg2Dy_svwPLdkC6yI6egtgXY0s1S67HuKQDSxXyjiH3LH3HbvTW45ITTriL5xKnsChvXTv7v45dDXlEQYqeCPXa_exqVnGL-2RVsdwkRVMfnuzB4_ruDZEiVR"  />
 </div>
+-->
 
 ###
 
