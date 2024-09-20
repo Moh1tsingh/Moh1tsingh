@@ -5,6 +5,7 @@ import {
   SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
+  SiNpm,
   SiPostgresql,
   SiReact,
   SiTailwindcss,
@@ -25,25 +26,25 @@ function Projects() {
       background: "bg-red-500",
     },
     {
-      title: "Tic-Tac-Toe Multiplayer Game",
-      tech: [SiReact, SiTailwindcss, SiNodedotjs],
-      link: "https://github.com/Moh1tsingh/tic-tac-toe-multiplayer",
-      cover: "/Tic-tac-toe.png",
+      title: "Sentilizer",
+      tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPostgresql],
+      link: "https://github.com/Moh1tsingh/sentilizer",
+      cover: "/Sentilizer.png",
       background: "bg-indigo-500",
     },
 
     {
       title: "Event Manager",
-      tech: [SiTypescript,SiNextdotjs, SiTailwindcss, SiPostgresql],
-      link: "https://event-manager-liard-one.vercel.app/",
+      tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPostgresql],
+      link: "https://github.com/Moh1tsingh/event-manager",
       cover: "/Evemg.png",
       background: "bg-pink-500",
     },
     {
-      title: "Portfolio Site",
-      tech: [SiNextdotjs, SiTailwindcss, SiNodedotjs],
-      link: "",
-      cover: "/Portfolio-Img.png",
+      title: "DSA-With-JavaScript (NPM Library)",
+      tech: [SiJavascript, SiNpm],
+      link: "https://github.com/Moh1tsingh/dsa-npm-lib",
+      cover: "/NPM-DSA.png",
       background: "bg-cyan-500",
     },
   ];
@@ -65,7 +66,7 @@ function Projects() {
                   className=" w-full space-y-5 cursor-pointer"
                 >
                   <div className=" space-y-2">
-                    <h1 className=" text-2xl font-bold">{project.title}</h1>
+                    <h1 className=" text-2xl font-bold max-sm:text-lg">{project.title}</h1>
                     <div className="flex items-center  gap-3">
                       {project.tech.map((Icon, index) => {
                         return <Icon className="w-8 h-8" key={index} />;

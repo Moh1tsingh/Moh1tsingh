@@ -21,7 +21,7 @@ export default function Terminal() {
         case "skills":
             let skills =
             "1] Languages :\nHtml\nJavascript\nTypescript\nC++\nPython \n2] Libraries, Frameworks and Tools :\nNextjs\nReact\nNodejs\nTailwind\nPrisma(ORM) - Postgress\nSupabase\nGit-Github";
-            setOutput([...output, input + " //your input", ...skills.split("\n")]);
+            setOutput([...output, input + " --your input", ...skills.split("\n")]);
             setInputHistory([...inputHistory, input]);
             setInput("");
             break
@@ -31,10 +31,10 @@ export default function Terminal() {
             break
         case "projects":
             let projects =
-              "These are some of my best projects that i have built till now :\na.Reddit Clone: A complete clone of reddit where you can create communities and upload posts. Made using Nextjs, Tailwind, Postgress(Supabase), Prisma and Kinde(Auth).\nb.Event Manager: An Event manager app where you can create events, get sharable links for rsvp's that you can share with you audience and see all the enrolled people. Made in Nextjs, Tailwind, Postgress(Supabase), Prisma and Kinde(Auth)\nc.CloneGram: A social media web app where users can sign in and upload photos and create their profiles. Made using Nextjs, Tailwind, Postgres(Supabase), Prisma and Next-Auth\nd.Tic-Tac-Toe-Multiplayer: A multiplayer tic-tac-toe game where users can create/join rooms to play tic-tac-toe. Made using React, Socket.io(websockets)";
+              "These are some of my best projects that i have built till now :\na.Reddit Clone: A complete clone of reddit where you can create communities and upload posts. Made using Nextjs, Tailwind, Postgress(Supabase), Prisma and Kinde(Auth).\nb.Sentilizer: A Youtube comment sentiment analysis tool where users can put the video link and generate the analysis in one click. Each user get's 2 credits per day, where every analysis costs 1 credit.\nc.DSA-With-Javascript: A npm library for DSA created in javascript which includes basic Data Structures like Stack, Queue and Linked-List and Algorithms like Binary Search, Linear Search, Bubble Sort, Insertion Sort, Merge Sort, BFS, DFS,etc.\nd.Event Manager: An Event manager app where you can create events, get sharable links for rsvp's that you can share with your audience and see all the enrolled people. Made in Nextjs, Tailwind, Postgress(Supabase), Prisma and Kinde(Auth)";
             setOutput([
               ...output,
-              input + " //your input",
+              input + " --your input",
               ...projects.split("\n"),
             ]);
             setInputHistory([...inputHistory, input]);
@@ -42,13 +42,13 @@ export default function Terminal() {
             break
         case "about":
           let about = "I am Mohitsingh Thakur, a student currently in the final year of pursuing B.tech in Computer Science and Engineering. A passionate full stack developer who likes to build stuff that people like. :)"
-          setOutput([...output, input + " //your input", about]);
+          setOutput([...output, input + " --your input", about]);
           setInputHistory([...inputHistory, input]);
           setInput("");
           break
         case "help":
           let l1 =
-            "The following are the available commands:\n1.about - about me \n2.cls - clears the screen\n3.project - projects that i have built\n4.skills - my skills and tech stack\n5.help - that's a secret.";
+            "The following are the available commands:\n1.about - about me \n2.cls - clears the screen\n3.projects - projects that i have built\n4.skills - my skills and tech stack\n5.help - that's a secret.";
           setOutput([...output, ...l1.split("\n")]);
           setInputHistory([...inputHistory, input]);
           setInput("");
