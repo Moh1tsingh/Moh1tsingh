@@ -18,7 +18,7 @@ const Navbar = ({ className }: { className?: string }) => {
       Icon: SiGithub,
     },
     {
-      Link: "https://twitter.com/Mohitsingh_2003",
+      Link: "https://twitter.com/is_mohitsingh",
       Label: "X",
       Icon: SiX,
     },
